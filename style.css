@@ -25,11 +25,11 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: var(--col-light-pink);
-  /* overflow-y: scroll;  */
+  overflow-y: scroll; 
 }
 
 #challenge {
-  background: url(/assets/images/background-pattern-desktop.svg) no-repeat fixed top;
+  background: url(assets/images/background-pattern-desktop.svg) no-repeat fixed top;
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -133,7 +133,7 @@ h1 {
 @media only screen and (max-width: 650px) {
 
   #challenge {
-    background: url(/assets/images/background-pattern-desktop.svg) no-repeat fixed top;
+    background: url(assets/images/background-pattern-desktop.svg) no-repeat fixed top;
     background-size: inherit;
     padding: 2rem;
   }

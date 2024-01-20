@@ -7,10 +7,10 @@ questions.addEventListener('click', (e) => {
     e.target.parentNode.classList.toggle('hidden');
 
     if(e.target.classList.contains('open')) {
-      e.target.src = '/assets/images/icon-plus.svg';
+      e.target.src = 'assets/images/icon-plus.svg';
       e.target.classList.toggle('open');
     } else {
-      e.target.src = '/assets/images/icon-minus.svg';
+      e.target.src = 'assets/images/icon-minus.svg';
       e.target.classList.toggle('open');
     }
 
